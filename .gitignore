@@ -1,0 +1,97 @@
+# ─────────────────────────────────────────
+# PolyInstall — .gitignore
+# ─────────────────────────────────────────
+
+# ── Build outputs ────────────────────────
+build/
+dist/
+out/
+bin/
+obj/
+*.exe
+*.out
+*.app
+*.dmg
+*.pkg
+*.deb
+*.rpm
+*.tar.gz
+*.zip
+
+# ── Compiled object files ────────────────
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.pdb
+*.ilk
+*.exp
+
+# ── C / C++ ──────────────────────────────
+*.d
+*.su
+*.idb
+
+# ── Rust ─────────────────────────────────
+target/
+Cargo.lock
+
+# ── Python ───────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.eggs/
+venv/
+.venv/
+env/
+pip-wheel-metadata/
+
+# ── Go ───────────────────────────────────
+*.test
+*.prof
+vendor/
+
+# ── CMake ────────────────────────────────
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# ── Make ─────────────────────────────────
+*.make
+
+# ── IDEs & editors ───────────────────────
+.vscode/
+.idea/
+*.suo
+*.user
+*.sln.docstates
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ── Logs & temp files ────────────────────
+*.log
+*.tmp
+*.temp
+*.bak
+*.orig
+
+# ── OS-specific ──────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+ehthumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
