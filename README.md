@@ -1,6 +1,6 @@
 # PolyInstall
 
-> Hand-crafted, cross-platform installers for programming languages — written from scratch, in any language.
+> Hand-crafted, cross-platform installers for programming languages. Written from scratch, in any language.
 
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
 [![Platforms](https://img.shields.io/badge/platforms-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg)]()
@@ -12,7 +12,7 @@
 
 **PolyInstall** is a personal open-source project providing clean, hand-coded installers for a wide range of programming languages across Windows, macOS, and Linux.
 
-Every installer in this repository is written from scratch — no borrowed code, no third-party installer frameworks. The language used to build an installer is intentionally decoupled from the language being installed: a C++ installer might be written in C, a Python installer in Rust, and so on. This is a deliberate design philosophy that keeps each installer self-contained and educational.
+Every installer in this repository is written from scratch. No borrowed code, no third-party installer frameworks. The language used to build an installer is intentionally decoupled from the language being installed: a C++ installer might be written in C, a Python installer in Rust, and so on. This is a deliberate design philosophy that keeps each installer self-contained and educational.
 
 ---
 
@@ -77,6 +77,9 @@ There is no rule that says a Python installer must be written in Python. PolyIns
 ### No borrowed code
 Every line in this repository is hand-written. No installer frameworks (NSIS, Inno Setup, WiX, etc.) are used. This keeps the project educational and ensures full understanding of what each installer does.
 
+### Shell scripts as the bootstrapping foundation
+Not every installer can assume a compiler is already present on the target machine — if every installer required a compiled language to run, the whole system would be an unresolvable bootstrapping loop. To break that cycle, shell scripts (Bash for macOS/Linux, Batch/PowerShell for Windows) serve as the guaranteed entry point. They require no compilation and are available on every supported platform out of the box. This means there is always at least one installer that can run on a clean system with no prior tooling, from which everything else can be built up.
+
 ### Minimal dependencies
 Installers aim to rely only on what is available in a standard build environment for the chosen implementation language. Heavy runtime dependencies are avoided wherever possible.
 
@@ -107,6 +110,13 @@ This project is licensed under the **Apache License 2.0**. See the [LICENSE](LIC
 
 ---
 
-## Author
+## Authorship
 
 Built and maintained as a personal project. All code is original and hand-written.
+
+## Buy me a Coffee
+If you think I deserve a little gift to support me and my creations, feel free to buy me a coffee (not the actual website, but a Revolut payment link)!
+
+Please include your GitHub username in the "Note" section so I can add you to the contributor list on my profile!
+
+[![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://revolut.me/andreygdl9)
