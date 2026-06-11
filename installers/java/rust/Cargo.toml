@@ -1,0 +1,8 @@
+[package]
+name = "java_installer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# Intentionally left empty to ensure compliance with our "no third-party crates" rule.
+# We build everything strictly using the Rust standard library (std::process, std::fs).
