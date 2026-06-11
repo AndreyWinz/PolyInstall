@@ -65,7 +65,7 @@ Each language directory contains platform-specific subdirectories. Inside each, 
 | PHP       | ✅      | ✅    | ✅    | C++                  |
 | C#       | ✅      | ✅    | ✅    | Go                  |
 | Haskell       | ✅      | ✅    | ✅    | C#                  |
-| R       | 📋      | 📋    | 📋    | TBD                  |
+| R       | ✅      | ✅    | ✅    | Java                  |
 | Objective-C       | 📋      | 📋    | 📋    | TBD                  |
 | HTML       | 📋      | 📋    | 📋    | TBD                  |
 | Java       | ✅      | ✅    | ✅    | Rust                  |
