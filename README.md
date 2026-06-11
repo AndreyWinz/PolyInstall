@@ -57,11 +57,32 @@ Each language directory contains platform-specific subdirectories. Inside each, 
 
 | Language | Windows | macOS | Linux | Installer Written In |
 |----------|---------|-------|-------|----------------------|
-| C        | 🔧      | 🔧    | 🔧    | TBD                  |
-| C++      | 🔧      | 🔧    | 🔧    | TBD                  |
-| Python   | 🔧      | 🔧    | 🔧    | TBD                  |
-| Rust     | 🔧      | 🔧    | 🔧    | TBD                  |
-| Go       | 🔧      | 🔧    | 🔧    | TBD                  |
+| C        | ✅      | ✅    | ✅    | Python                  |
+| C++      | ✅      | ✅    | ✅    | Python                  |
+| Python   | ✅      | ✅    | ✅    | C                  |
+| Rust     | 📋      | 📋    | 📋    | TBD                  |
+| Go       | ✅      | ✅    | ✅    | C                  |
+| PHP       | ✅      | ✅    | ✅    | C++                  |
+| C#       | ✅      | ✅    | ✅    | Go                  |
+| Haskell       | ✅      | ✅    | ✅    | C#                  |
+| R       | 📋      | 📋    | 📋    | TBD                  |
+| Objective-C       | 📋      | 📋    | 📋    | TBD                  |
+| HTML       | 📋      | 📋    | 📋    | TBD                  |
+| Java       | 📋      | 📋    | 📋    | TBD                  |
+| JavaScript       | 📋      | 📋    | 📋    | TBD                  |
+| TypeScript       | 📋      | 📋    | 📋    | TBD                  |
+| CSS       | 📋      | 📋    | 📋    | TBD                  |
+| D       | 📋      | 📋    | 📋    | TBD                  |
+| Dart       | 📋      | 📋    | 📋    | TBD                  |
+| Cloure       | 📋      | 📋    | 📋    | TBD                  |
+| CommonLisp       | 📋      | 📋    | 📋    | TBD                  |
+| Crystal       | 📋      | 📋    | 📋    | TBD                  |
+| EJS       | 📋      | 📋    | 📋    | TBD                  |
+| F#       | 📋      | 📋    | 📋    | TBD                  |
+| Apache Groovy       | 📋      | 📋    | 📋    | TBD                  |
+| Julia       | 📋      | 📋    | 📋    | TBD                  |
+| Kotlin       | 📋      | 📋    | 📋    | TBD                  |
+| More coming soon...       |
 
 > ✅ Complete — 🔧 In Progress — 📋 Planned
 
