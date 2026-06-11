@@ -68,7 +68,7 @@ Each language directory contains platform-specific subdirectories. Inside each, 
 | R       | 📋      | 📋    | 📋    | TBD                  |
 | Objective-C       | 📋      | 📋    | 📋    | TBD                  |
 | HTML       | 📋      | 📋    | 📋    | TBD                  |
-| Java       | 📋      | 📋    | 📋    | TBD                  |
+| Java       | ✅      | ✅    | ✅    | Rust                  |
 | JavaScript       | 📋      | 📋    | 📋    | TBD                  |
 | TypeScript       | 📋      | 📋    | 📋    | TBD                  |
 | CSS       | 📋      | 📋    | 📋    | TBD                  |
