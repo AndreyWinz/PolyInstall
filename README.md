@@ -60,7 +60,7 @@ Each language directory contains platform-specific subdirectories. Inside each, 
 | C        | ✅      | ✅    | ✅    | Python                  |
 | C++      | ✅      | ✅    | ✅    | Python                  |
 | Python   | ✅      | ✅    | ✅    | C                  |
-| Rust     | 📋      | 📋    | 📋    | TBD                  |
+| Rust     | ✅      | ✅    | ✅    | Haskell                  |
 | Go       | ✅      | ✅    | ✅    | C                  |
 | PHP       | ✅      | ✅    | ✅    | C++                  |
 | C#       | ✅      | ✅    | ✅    | Go                  |
