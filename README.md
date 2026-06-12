@@ -70,7 +70,7 @@ Each language directory contains platform-specific subdirectories. Inside each, 
 | HTML       | 📋      | 📋    | 📋    | TBD                  |
 | Java       | ✅      | ✅    | ✅    | Rust                  |
 | JavaScript       | ✅      | ✅    | ✅    | R                  |
-| TypeScript       | 📋      | 📋    | 📋    | TBD                  |
+| TypeScript       | ✅      | ✅    | ✅    | JavaScript                  |
 | CSS       | 📋      | 📋    | 📋    | TBD                  |
 | D       | 📋      | 📋    | 📋    | TBD                  |
 | Dart       | 📋      | 📋    | 📋    | TBD                  |
