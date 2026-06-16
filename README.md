@@ -61,7 +61,7 @@ Each language directory contains platform-specific subdirectories. Inside each, 
 | C++      | ✅      | ✅    | ✅    | Python                  |
 | Python   | ✅      | ✅    | ✅    | C                  |
 | Rust     | ✅      | ✅    | ✅    | Haskell                  |
-| Go       | ✅      | ✅    | ✅    | C                  |
+| Go/Golang       | ✅      | ✅    | ✅    | C                  |
 | PHP       | ✅      | ✅    | ✅    | C++                  |
 | C#       | ✅      | ✅    | ✅    | Go                  |
 | Haskell       | ✅      | ✅    | ✅    | C#                  |
@@ -74,14 +74,27 @@ Each language directory contains platform-specific subdirectories. Inside each, 
 | CSS       | 📋      | 📋    | 📋    | TBD                  |
 | D       | 📋      | 📋    | 📋    | TBD                  |
 | Dart       | 📋      | 📋    | 📋    | TBD                  |
-| Cloure       | 📋      | 📋    | 📋    | TBD                  |
+| Clojure       | 📋      | 📋    | 📋    | TBD                  |
 | CommonLisp       | 📋      | 📋    | 📋    | TBD                  |
 | Crystal       | 📋      | 📋    | 📋    | TBD                  |
 | EJS       | 📋      | 📋    | 📋    | TBD                  |
 | F#       | 📋      | 📋    | 📋    | TBD                  |
 | Apache Groovy       | 📋      | 📋    | 📋    | TBD                  |
 | Julia       | 📋      | 📋    | 📋    | TBD                  |
-| Kotlin       | 📋      | 📋    | 📋    | TBD                  |
+| Assembly Script       | 📋      | 📋    | 📋    | TBD                  |
+| Bash Script       | 📋      | 📋    | 📋    | TBD                  |
+| CoffeeScript       | 📋      | 📋    | 📋    | TBD                  |
+| CSS3       | 📋      | 📋    | 📋    | TBD                  |
+| Elm       | 📋      | 📋    | 📋    | TBD                  |
+| Dgraph       | 📋      | 📋    | 📋    | TBD                  |
+| Elixir       | 📋      | 📋    | 📋    | TBD                  |
+| Erlang       | 📋      | 📋    | 📋    | TBD                  |
+| Fortran       | 📋      | 📋    | 📋    | TBD                  |
+| GDScript       | 📋      | 📋    | 📋    | TBD                  |
+| Gleam       | 📋      | 📋    | 📋    | TBD                  |
+| GraphQL       | 📋      | 📋    | 📋    | TBD                  |
+| LabView       | 📋      | 📋    | 📋    | TBD                  |
+| LaTeX       | 📋      | 📋    | 📋    | TBD                  |
 | More coming soon...       |
 
 > ✅ Complete — 🔧 In Progress — 📋 Planned
